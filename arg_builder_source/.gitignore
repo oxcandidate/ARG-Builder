@@ -1,0 +1,5 @@
+*.dot
+*.png
+sample*
+*.o
+arg_builder
