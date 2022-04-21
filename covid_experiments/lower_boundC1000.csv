@@ -1,0 +1,14 @@
+Bound type, bound value, parameter (k/m)
+hudson_overlap,62,
+RecMin,147,
+RecMinRobust,99,
+hudson_nonoverlap,39,
+robust_hudson,20,2
+robust_hudson,15,3
+robust_hudson,11,4
+adversarial_hudson,62,0
+adversarial_hudson,60,1
+adversarial_hudson,58,2
+adversarial_hudson,56,3
+adversarial_hudson,54,4
+adversarial_hudson,53,5
