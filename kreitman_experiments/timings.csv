@@ -1,0 +1,7 @@
+Data,Algorithm,Time
+Unrooted,kwarg,42.376
+,kwarg dfs,18.078
+,threader,3.178
+Rooted,kwarg,57.520
+,kwarg dfs,30.289
+,threader,0.057

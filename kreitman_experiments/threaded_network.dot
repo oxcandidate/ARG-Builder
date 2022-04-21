@@ -1,0 +1,50 @@
+digraph ARG {
+  -1 [label="Root",color=black];
+  1 [label=" Ja-S",color=red];
+  5 -> 1 [label="35*|"];
+  2 [label="ancestral6",color=green];
+  3 -> 2 [label=""];
+  3 [label="ancestral0",color=green];
+  -1 -> 3 [label=""];
+  4 [label=" Ja-F",color=red];
+  3 -> 4 [label=""];
+  5 [label="ancestral1",color=green];
+  -1 -> 5 [label=""];
+  6 [label="ancestral2",color=green];
+  9 -> 6 [label=""];
+  7 [label=" Fl-1S",color=red];
+  6 -> 7 [label=""];
+  8 [label="ancestral5",color=green];
+  6 -> 8 [label="2*|-8"];
+  9 [label="ancestral3",color=green];
+  11 -> 9 [label=""];
+  10 [label="ancestral8",color=green];
+  19 -> 10 [label=""];
+  11 [label="ancestral4",color=green];
+  5 -> 11 [label=""];
+  12 [label=" Wa-S",color=red];
+  8 -> 12 [label=""];
+  13 [label=" Af-F",color=red];
+  2 -> 13 [label=""];
+  14 [label="recomb7",color=blue];
+  8 -> 14 [label="P 3"]
+  2 -> 14 [label="S 3"]
+  15 [label=" Fr-S",color=red];
+  10 -> 15 [label=""];
+  16 [label="recomb9",color=blue];
+  14 -> 16 [label="P 16"]
+  10 -> 16 [label="S 16"]
+  17 [label="recomb10",color=blue];
+  16 -> 17 [label="P 18"]
+  11 -> 17 [label="S 18"]
+  18 [label=" Fl-2S",color=red];
+  17 -> 18 [label=""];
+  19 [label="ancestral11",color=green];
+  9 -> 19 [label="2*, 35*|"];
+  20 [label=" Af-S",color=red];
+  19 -> 20 [label=""];
+  21 [label=" Fr-F",color=red];
+  13 -> 21 [label=""];
+  22 [label=" Wa-F",color=red];
+  13 -> 22 [label=""];
+}
